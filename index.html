@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="CSS/style.css">
+       <link rel="stylesheet" href="CSS/slider.css">
+
+       <!-- Get jQuery from CDN -->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+       
+		<script type="text/javascript" src="JS/jquery.simpleslider.js"></script>
+		<script type="text/javascript" src="JS/backstretch.js"></script>
+        <script type="text/javascript" src="JS/custom.js"></script>
+        
+        <title>Tarea Jquery Plugin</title>
+
+        <meta description="Tarea - Alejandro López Alfaro">
+
+    </head>
+    <body>
+       <!-- <header id="top">
+			<div id="logo"><span class='logo'>Tarea jquery Plugin</span></div>
+		</header> -->
+        <div class='pagewrap'>
+            <div class='pageblock' id='fullscreen'>
+                <div class='slider'>
+                    <div class='slide' id="first">
+                        <div class='slidecontent'>
+                            <h1>FIRST SLIDER</h1>
+                            <p>Simple slider</p>
+                        </div>
+                    </div>
+                    <div class='slide' id="sec">
+                        <div class='slidecontent'>
+                            
+                            <h1>SECOND SLIDER</h1>
+                            
+                        </div>
+                    </div>
+                    <div class='slide' id="thirth">
+                        <div class='slidecontent'>
+                            <h1>THIRD SLIDER</h1>
+                        </div>
+                    </div>
+                    <div class='slide' id="fourth">
+                        <div class='slidecontent'>
+                            <h1>FORTH SLIDER</h1>
+                        </div>
+                    </div>
+                    <div class='slide' id="fifth">
+                        <div class='slidecontent'>
+                            <h1>FIFTH SLIDER</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h1>Chart.JS</h1>
+            <br>
+
+            <div class="row">
+                <div class="column">
+                    <h3>Gr&aacute;fico de Barras</h3>
+                    <canvas class="chart" id="chartBar" ></canvas>
+                </div>
+                <div class="column">
+                    <h3>Gr&aacute;fico Lineal</h3>
+                    <canvas class="chart" id="chartLine"></canvas>
+                </div>
+            </div>
+            <div class="row">
+                    
+                <div class="column">
+                    <h3>Gr&aacute;fico Horizontal</h3>
+                    <canvas class="chart" id="chartHorizontal"></canvas>
+                </div>
+                <div class="column">
+                    <h3>Gr&aacute;fico de Dona</h3>
+                    <canvas class="chart" id="chartPie"></canvas>
+                </div>
+            </div>
+        </div>
+           <script type="text/javascript" src="JS/graficosData.js"></script>
+    </body>
+</html>
